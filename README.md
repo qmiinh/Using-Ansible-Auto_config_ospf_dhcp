@@ -14,8 +14,6 @@
 
 [A. Các bước thực hiện](#b)
 
-[A. Thông tin LAB](#a-Thông-tin-LAB)
-
 <a name="a"></a>
 ## A. Thông tin LAB
 
