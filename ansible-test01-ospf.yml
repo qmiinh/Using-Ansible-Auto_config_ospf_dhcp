@@ -1,0 +1,11 @@
+---
+  - hosts: all
+    gather_facts: no
+    connection: local
+#    vars:
+#      processID: 1
+  
+    roles:
+      - creat-ip
+      - config-ospf
+      - config-dhcp

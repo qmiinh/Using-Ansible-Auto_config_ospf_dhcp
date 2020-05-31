@@ -1,0 +1,23 @@
+---
+#-------------------Dat ten --------------------
+
+ hostname: Router02
+
+#-------------------Cau hinh IP--------------------
+
+ interface: [ 'FastEthernet0/0', 'FastEthernet1/0', 'FastEthernet2/0', 'FastEthernet3/0', 'loopback 1' ]
+ ipadd: [ '192.168.12.2 255.255.255.0', '192.168.23.2 255.255.255.0', '192.168.2.1 255.255.255.0', '88.0.0.22 255.255.255.0', '2.2.2.2 255.255.255.255' ]
+ desc: [ 'From Router2-F0/0 to Router1-F0/0', 'From Router2-F1/0 to Router3-F0/0', 'From Router2-F2/0', 'From Router1-F3/0 to Switch', 'loopback1' ]
+ state: [ 'True', 'True', 'True', 'True', 'True' ]
+
+#-------------------Cau hinh OSPF--------------------
+ interface_ospf: [ 'FastEthernet0/0', 'FastEthernet1/0', 'loopback 1', 'FastEthernet2/0' ]
+ area: [ '0', '0', '0', '1' ]
+
+ 
+#-------------------Cau hinh DHCP--------------------
+ ip_exclude: '192.168.2.1 192.168.2.10'
+ pool: LAN-POOL-2
+ network: 192.168.2.0 255.255.255.0
+ default_route: '192.168.2.1'
+ interface_dhcp: FastEthernet2/0

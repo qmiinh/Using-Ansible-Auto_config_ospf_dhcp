@@ -1,0 +1,16 @@
+---
+ - name: Exclude Ip add
+   ios_command:
+    commands:
+        - conf t
+        - "ip dhcp excluded-address {{ip_exclude}}"
+
+ - name: Make DHCP pool
+   ios_command:
+    commands:
+        - conf t
+        - "ip dhcp pool {{pool}}"
+        - "network {{network}}" 
+        - "default-router {{default_route}}"
+        - "dns-server {{dns_server}}" 
+
