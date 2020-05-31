@@ -14,7 +14,7 @@ StackEdit stores your files in your browser, which means all your files are auto
 
 ## A. Thông tin LAB 
 ### A.1 Topo
-![Topo](E:\#Ansible\YAML\Ansible-test01-ospf\ansible-network-01\Capture.PNG)
+![Topo](\Capture.PNG)
 
 The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
 
