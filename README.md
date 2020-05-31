@@ -45,21 +45,21 @@
     <td>88.0.0.11</td>
     <td>255.255.255.0</td>
     <td> </td>
-    <td> </td>
+  
   </tr>
   <tr>
     <td>F 0/0</td>
     <td>192.168.12.1</td>
     <td>255.255.255.0</td>
     <td></td>
-    <td></td>
+
   </tr>
     <tr>
     <td>F 1/0</td>
     <td>192.168.1.1</td>
     <td>255.255.255.0</td>
     <td></td>
-    <td></td>
+
   </tr>
     <tr>
     <td rowspan="4"> Router2</td>
@@ -67,28 +67,28 @@
     <td>88.0.0.22</td>
     <td>255.255.255.0</td>
     <td> </td>
-    <td> </td>
+
   </tr>
   <tr>
     <td>F 0/0</td>
     <td>192.168.12.2</td>
     <td>255.255.255.0</td>
     <td></td>
-    <td></td>
+
   </tr>
     <tr>
     <td>F 1/0</td>
     <td>192.168.23.2</td>
     <td>255.255.255.0</td>
     <td></td>
-    <td></td>
+
   </tr>
     <tr>
     <td>F 2/0</td>
     <td>192.168.2.1</td>
     <td>255.255.255.0</td>
     <td></td>
-    <td></td>
+
   </tr>
     <tr>
     <td rowspan="3"> Router3</td>
@@ -96,21 +96,21 @@
     <td>88.0.0.33</td>
     <td>255.255.255.0</td>
     <td> </td>
-    <td> </td>
+
   </tr>
   <tr>
     <td>F 0/0</td>
     <td>192.168.23.3</td>
     <td>255.255.255.0</td>
     <td></td>
-    <td></td>
+
   </tr>
     <tr>
     <td>F 1/0</td>
     <td>192.168.3.1</td>
     <td>255.255.255.0</td>
     <td></td>
-    <td></td>
+   
   </tr>
     <tr>
 </table>
