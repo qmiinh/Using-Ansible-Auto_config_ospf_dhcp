@@ -32,7 +32,6 @@
     <th>IP ADDRESS</th>
     <th>SUBNET MASK</th>
     <th>GATEWAY</th>
-    <th>DNS</th>
   </tr>
    <tr>
     <td rowspan="1"> ComputeNode</td>
