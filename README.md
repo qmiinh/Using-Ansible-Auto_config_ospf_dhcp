@@ -12,7 +12,7 @@
 
 [A. Thông tin LAB](#a)
 
-[A. Các bước thực hiện](#b)
+[B. Các bước thực hiện](#b)
 
 <a name="a"></a>
 ## A. Thông tin LAB
