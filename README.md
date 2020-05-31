@@ -37,7 +37,6 @@
     <td>88.0.0.7</td>
     <td>255.255.255.0</td>
     <td>88.0.0.1</td>
-    <td> </td>
   </tr>
   <tr>
     <td rowspan="3"> Router1</td>
